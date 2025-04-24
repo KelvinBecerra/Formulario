@@ -1,12 +1,35 @@
-# React + Vite
+# Objetivo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+crear un formulario que registre los usuarios en una base de datos de mongodb
 
-Currently, two official plugins are available:
+una vez logrado eso, que se pueda iniciar sesion con google y facebook
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+que el diseno del formulario se haga con tailwind y react
 
-## Expanding the ESLint configuration
+la base de datos con mongodb
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+se gestione con vite 
+
+en la base de datos que se solucite ;
+nombre
+apellido
+edad
+correo 
+password
+
+
+## Scripts de Tailwind 
+'flex flex-col gap-4 max-w-xs
+flex flex-col ordena en columna
+gap-4 grueso
+max-w-xs ancho 
+
+max-w-xs: Para un ancho muy pequeño.
+
+max-w-md: Para formularios de tamaño mediano.
+
+max-w-lg: Ideal para formularios más grandes.
+
+max-w-full: Hace que el formulario ocupe el ancho completo del contenedor.
+
+max-w-screen-sm, max-w-screen-md, etc.: Ajusta el ancho según el tamaño de la pantalla.
